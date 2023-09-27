@@ -1,15 +1,18 @@
 /*box-sizing*/
 * {
 	box-sizing: border-box;
-	margin-right: 40px;
-	margin-left: 20px;
+	margin-right: 0px;
+	margin-left: 5px;
 	margin-bottom: 20px;
 }
+
+/*Body Sizing and Styles*/
 
 h1 {
 	color: navy;
 	text-align: center;
 	font-size: 26px;
+	margin-left: 10px;
 }
 
 section {
@@ -24,7 +27,7 @@ section {
 	padding: 15px;
 	position: relative;
 	top: 10px;
-	left: 10px;
+	left: 5px;
 	float: left;
 	overflow: auto;
 }
@@ -37,6 +40,8 @@ p {
 	margin-right: 10px;
 	margin-left: 10px;
 }
+
+/*Section Title Placement*/
 
 h2#Sedimentary {
 	background-color: hotpink;
@@ -82,6 +87,8 @@ h2#Metamorphic {
 	top: 0px;
 	right: 0px;
 }
+
+/*Breakpoints*/
 
 .row {
 	width: 100%;
