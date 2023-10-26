@@ -1,0 +1,91 @@
+body {
+	box-sizing: border-box;
+	background-color: blanchedalmond;
+}
+/**START OF HEADER**/
+.container a {
+	font-family: 'Bebas Neue', sans-serif;
+	padding: 10;
+	margin-right: auto;
+	margin-left: auto;
+}
+#header-nav {
+	background-color: chocolate;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand {
+	padding-top: 0px;
+}
+.navbar-brand h1{
+	color: black;
+	margin-top: 10px;
+}
+.navbar-toggle {
+	position: relative;
+	float:right;
+	padding: 10px 10px;
+	margin: 8 15 8;
+	background-color: transparent;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+#nav-list a {
+	margin-top: 10px;
+	color: black;
+	border-radius: 0;
+	border: 1px solid black;
+	font-size: 1.8em;
+	font-family: 'Bebas Neue', sans-serif;
+
+}
+#nav-list a:hover {
+	background: whitesmoke;
+	border-radius: 0;
+	border:0;
+}
+
+.navbar-header botton.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid whitesmoke;
+}
+/***END OF HEADER***/
+
+/***START OF PAGE***/
+#menu-header h2 {
+	color: black;
+	font-family: 'Cormorant Garamond', serif;
+	font-size:2em;
+	font-weight: bold;
+}
+
+/***START OF SINGLE SECTION***/
+#main-content .row {
+	font-family: "Roboto Slab", serif;
+	background-color: tan;
+	margin: 15px auto 15px;
+}
+
+#main-content p {
+	color: black;
+	font-size: 1.3em;
+	margin: 15px;
+}
+/***END OF SINGLE SECTION***/
+
+/***END OF PAGE***/
+
+/**MEDIA QUERIES**/
+/**MEDIUM DEVICES ONLY**/
+@media (min-width: 992px) {
+
+}
+/**SMALL DEVICES ONLY**/
+@media (min-width:768px) and (max-width: 991px) {
+
+}
+/**XSMALL DEVICES ONLY**/
+@media (max-width: 767px) {
+
+}
